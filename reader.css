@@ -1,0 +1,93 @@
+
+ header{
+    position:fixed;
+    width:100%;
+    padding: 30px;
+    transition: all 0.4s;
+    z-index: 99;
+}
+
+header.rolagem {
+     background-color: #201919e8;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 64px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 30px;
+}
+
+.letra1-logo {
+    font-size: 60px;
+    font-family: "girassol", sans-serif;
+    color: var(--color-white);
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+    padding-left: 1px;
+}
+
+.letra2-logo {
+    color:var(--color-orange);
+    font-family: damion, sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.box-navigation {
+    background-color: var(--color-white);
+    padding: 17px 45px ;
+    border-radius: 30px; 
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+    list-style: none;
+}
+
+.navigation :hover {
+    color: var(--color-orange);
+    transition: all 0.4s;
+}
+
+.navigation a {
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: none;
+    color: #121212;
+    font-family: sora , sans-serif;
+    transition: all 0.4s;
+}
+
+.button{
+    padding: 17px 50px;
+    font-size: 16px;
+    background-color: var(--color-orange);
+    border-radius: 30px;
+    border: none;
+    font-family: sora, sans-serif;
+    font-weight: 700;
+    color: var(--color-white);
+    cursor:pointer;
+    transition:all 0.5s;
+}
+
+.button:hover {
+    color: var(--color-orange);
+    background-color: var(--color-white);
+    transition:ease-in 0.5s;
+}
+
